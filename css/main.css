@@ -343,8 +343,13 @@ form input, textarea {
 	width: 80%;
 	border: none;
 	border-radius: 1px;
+	color: #fff;
 }
 
+/*
+input[placeholder] {
+	color: #fff;
+} */
 /* ask chris how to style placeholder
 texts */
 
