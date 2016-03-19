@@ -84,7 +84,9 @@ nav a {
 	margin-right: 20px;
 }
 
-/* ask chris how to take margin off last child */
+li:last-child a {
+	margin-right: 0;
+}
 
 nav a:hover {
 	color: #00adb3;
@@ -188,14 +190,14 @@ header .fa {
 .col-md {
 	display: inline-block;
 	width: 33%;
-	padding-right: 0;
+	padding-right: 2.5%;
 	box-sizing: border-box;
 	/* ask chris about box sizing
 	padding border and margins */
 }
 
-.moreinfo .col-md:last-child {
-	padding-right: 0px;
+.more-info:last-child {
+	padding-right: 0;
 }
 
 .moreinfo h3 {
