@@ -355,6 +355,11 @@ form input, textarea {
 input::-webkit-input-placeholder {
 	color: #fff;
 }
+
+textarea::-webkit-input-placeholder {
+	color: #fff;
+}
+
 /* ask chris how to style placeholder
 texts */
 
@@ -431,6 +436,187 @@ footer {
 	font-size: 1.5em;
 	padding: 5px;
 }
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 320px) and (max-width: 440px) {
+
+/* --- Universal --- */
+.gallery img {
+	display: none;
+}
+
+body {
+	font-size: 11px;
+}
+
+.heading {
+	height: 50px;
+}
+
+.heading h1 {
+	top: 15px;
+}
+
+.arrow .fa {
+	left: 25%;
+}
+
+/* --- Navigation --- */
+nav .logo {
+    float: none;
+    text-align: center;
+}
+
+nav .fa {
+	right: 30px;
+}
+
+nav ul {
+	display: none;
+}
+
+/* --- Header --- */
+header {
+	height: 350px;
+   	background-image: url('../img/bridgemobile1.jpg');
+}
+
+header h1 {
+	font-size: 3.2em;
+}
+
+/* --- About --- */
+.general {
+	margin-top: 25px;
+}
+
+.general .profile {
+	text-align: center;
+	width: 100%;
+	float: none;
+}
+
+.profile img {
+    height: auto;
+    width: 80%;
+}
+
+.general .info {
+    width: 100%;
+    float: none;
+    margin-top: 25px;
+}
+
+/* ---- Skills --- */
+.moreinfo {
+	padding-top: 0;
+}
+
+.col-md {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    padding-top: 12.5%;
+}
+
+.button {
+	margin: 10% 0;
+}
+/* --- Portfolio --- */
+.portfolio {
+    padding-bottom: 15px;
+}
+
+/* --- Blog --- */
+.posts {
+    padding: 25px 0 25px;
+}
+
+.box {
+    width: 100%;
+}
+
+/* --- Contact --- */
+.contact {
+    padding-top: 40px;
+}
+
+.form {
+	width: 100%;
+	float: none;
+}
+
+form input, textarea {
+	width: 86%;
+}
+
+.contacts {
+	width: 100%;
+	margin: 20px 0 30px;
+    left: 8%;
+}
+
+/* --- Footer --- */
+footer {
+	    padding: 50px 0 20px;
+}
+
+
+/* --- End (min-width: 320px) */ }
+
+@media (min-width: 360px) and (max-width: 440px) {
+
+/* --- Contacts --- */
+form input, textarea {
+	width: 89%;
+}
+
+.contacts {
+	width: 100%;
+	margin: 20px 0 30px;
+    left: 7.5%;
+}
+
+
+/* --- End (min-width: 360px) */ }
+
+@media (min-width: 375px) and (max-width: 440px) {
+
+/* --- Header --- */
+header {
+   	background-image: url('../img/bridgemobile2.jpg');
+}
+
+header h1 {
+	font-size: 3.7em;
+}
+
+
+/* --- End (min-width: 375px) */ }
+
+@media (min-width: 376px) and (max-width: 440px) {
+
+/* --- Header --- */
+header h1 {
+	font-size: 4em;
+}
+
+
+/* --- End (min-width: 376px) */ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
